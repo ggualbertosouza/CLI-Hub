@@ -1,4 +1,5 @@
-from programs import adivinha
+from programs import adivinha, loja_livros
+
 import os
 # Hub de programas
 
@@ -20,6 +21,10 @@ def main():
 
         if count == 1:
             adivinha.jogar()
+        if count == 2:
+            loja_livros.main()
+        if count == 3:
+            pass
 
     print('tchau')
 
